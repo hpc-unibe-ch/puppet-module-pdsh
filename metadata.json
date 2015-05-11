@@ -1,16 +1,32 @@
 {
   "name": "ubelix-pdsh",
-  "version": "0.1.0",
-  "author": "Rolli, Michael <michael.rolli@id.unibe.ch>",
+  "version": "0.1.1",
+  "author": "Rolli, Michael (ID) <michael.rolli@id.unibe.ch>",
   "summary": "Manages pdsh installation and configuration including additional mods and associated files",
   "license": "CC BY-SA 4.0",
-  "source": "https://idstash.unibe.ch/scm/ubelix/ubelix-pdsh.git",
+  "source": "https://idstash.unibe.ch/projects/UBELIX/repos/ubelix-pdsh/browse",
   "project_page": "https://idstash.unibe.ch/projects/UBELIX/repos/ubelix-pdsh/browse",
-  "issues_url": "tbd",
+  "issues_url": "https://idjira.unibe.ch/projects/UXPM",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
-      "version_requirement": ">= 1.0.0"
+      "version_requirement": "4.x"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
     }
   ]
 }
