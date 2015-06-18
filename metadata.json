@@ -3,10 +3,10 @@
   "version": "0.1.2",
   "author": "Rolli, Michael (ID) <michael.rolli@id.unibe.ch>",
   "summary": "Manages pdsh installation and configuration including additional mods and associated files",
-  "license": "CC BY-SA 4.0",
-  "source": "https://idstash.unibe.ch/projects/UBELIX/repos/ubelix-pdsh/browse",
-  "project_page": "https://idstash.unibe.ch/projects/UBELIX/repos/ubelix-pdsh/browse",
-  "issues_url": "https://idjira.unibe.ch/projects/UXPM",
+  "license": "Apache-2.0",
+  "source": "https://idos-code.unibe.ch/projects/UBELIX/repos/ubelix-pdsh/browse",
+  "project_page": "https://idos-code.unibe.ch/projects/UBELIX/repos/ubelix-pdsh/browse",
+  "issues_url": "https://idos-issues.unibe.ch/projects/UXPM",
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
