@@ -53,21 +53,13 @@ None
 
 ####Private Classes
 
-none
-
-###Defined Types
-
-####Public Defined Types
-
-none
-
-####Private Defined Types
-
-none
+* `pdsh::params`: Provides sensible default values
+* `pdsh::install`: Package installation
+* `pdsh::config`: Configuartion related resources
 
 ## Limitations
 
 This module has been tested on the following operating systems:
 
-* CentOS-6.6
+* CentOS 6
 
