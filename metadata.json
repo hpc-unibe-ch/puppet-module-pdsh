@@ -1,6 +1,6 @@
 {
   "name": "ubelix-pdsh",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Rolli, Michael (ID) <michael.rolli@id.unibe.ch>",
   "summary": "Manages pdsh installation and configuration including additional mods and associated files",
   "license": "Apache-2.0",
