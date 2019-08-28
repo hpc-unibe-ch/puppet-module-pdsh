@@ -1,4 +1,4 @@
-#pdsh
+# Puppet module  pdsh
 
 #### Table of Contents
 
@@ -11,21 +11,21 @@
 5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 6. [Limitations - OS compatibility, etc.](#limitations)
 
-##Overview
+## Overview
 
 This module manages the installation and configuration of pdsh - the Parallel Distributed Shell.
 
-##Module Description
+## Module Description
 
 Manage all aspects of pdsh - currently only installing the package itself. More is on the todo list.
 
-##Setup
+## Setup
 
-###What pdsh affects
+### What pdsh affects
 
 The module currently only installs the relevant package.
 
-###Beginning with pdsh
+### Beginning with pdsh
 
 To install pdsh simply include the class:
 
@@ -33,7 +33,7 @@ To install pdsh simply include the class:
     include pdsh
 ```
 
-##Usage
+## Usage
 
 ### Class: `pdsh`
 
@@ -43,15 +43,15 @@ The module's class is the primary entry point of the module.
 
 None
 
-##Reference
+## Reference
 
-###Classes
+### Classes
 
-####Public Classes
+#### Public Classes
 
 * [`pdsh`](#class-pdsh): Primary class that installs pdsh
 
-####Private Classes
+#### Private Classes
 
 * `pdsh::params`: Provides sensible default values
 * `pdsh::install`: Package installation
@@ -61,5 +61,5 @@ None
 
 This module has been tested on the following operating systems:
 
-* CentOS 6
+* CentOS 6, 7
 
