@@ -1,7 +1,7 @@
 {
-  "name": "ubelix-pdsh",
-  "version": "0.2.1",
-  "author": "Rolli, Michael (ID) <michael.rolli@id.unibe.ch>",
+  "name": "unibehpc-pdsh",
+  "version": "0.2.2",
+  "author": "unibehpc",
   "summary": "Manages pdsh installation and configuration including additional mods and associated files",
   "license": "Apache-2.0",
   "source": "https://github.com/id-unibe-ch/puppet-module-pdsh",
@@ -9,7 +9,7 @@
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 4.13.1 <6.0.0"
+      "version_requirement": ">= 4.13.1 <9.0.0"
     }
   ],
   "operatingsystem_support": [
